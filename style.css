@@ -66,6 +66,14 @@ a{
     font-size:15px;
     color:rgba(128, 128, 128, 0.556)
 }
+.left button{
+    margin: 20px 0px 0px 100px;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: #0057FF;
+    color: white;
+    border: none;
+}
 .right{
     width: 50%;
     height:700px;
