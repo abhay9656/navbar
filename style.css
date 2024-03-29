@@ -157,6 +157,16 @@ a{
 .dt{
     margin: 100px 100px;
 }
+.service{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 100px 100px;
+}
+.service img{
+    width:400px;
+    height: 400px;
+    border-radius: 10px;
+}
 
 
 
