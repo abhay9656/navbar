@@ -167,6 +167,27 @@ a{
     height: 400px;
     border-radius: 10px;
 }
+.service button{
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: #0057FF;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+.news{
+    display: flex;
+    justify-content:space-between;
+    padding: 100px 100px;
+}
+.new-card{
+    display: flex;
+}
+.new-body{
+    width: 200px;
+    height: 400px;
+    border: 1px solid;
+}
 
 
 
