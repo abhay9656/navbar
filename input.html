@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Box with Icon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-XHxbdAF pulau9axcwlDYOpqAlyMLC3qnLpKKE0vYWf /# F0a9">
+  <style>
+    .search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 300px; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 30px; /* Adjust padding to accommodate icon */
+}
+
+.search-btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search-btn i {
+  font-size: 18px;
+  color: black;
+}
+
+  </style>
+</head>
+<body>
+  <form action="#">
+    <div class="search-box">
+      <input type="text" placeholder="Search..." class="search-input">
+      <button type="submit" class="search-btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+  </form>
+</body>
+</html>

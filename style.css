@@ -123,6 +123,7 @@ a{
 .doctor{
     display: flex;
     margin-top: 200px;
+    flex-wrap: wrap;
 }
 .doctor-img{
     width: 50%;
@@ -234,7 +235,12 @@ footer input{
 
 
 
-
+@media (max-width:1090px) {
+    .doctor{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
 @media (max-width:800px){
     .hide{
         display: none;
@@ -242,6 +248,7 @@ footer input{
     #menu{
         display: block;
     }
+
 }
 
 @media (max-width:400px){
