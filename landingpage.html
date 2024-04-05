@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: netflix sans;
         }
         .main{
             display: flex;
@@ -23,6 +24,23 @@
          .bt{
             background-color: #F6F0E8;
             color: #000;
+         }
+         .content{
+            padding: 100px 200px;
+            color: #14203E;
+         }
+         h1{
+            font-size: 48px;
+            font-weight: 900;
+            text-align: center;
+         }
+         .button{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+         }
+         .nav{
+           margin-left: 150px;
          }
     </style>
   </head>
@@ -38,10 +56,17 @@
                     <li>Contact</li>
                 </ul>
             </div>
-            <div>
+            <div class="button">
                 <button class= "bt btn btn-light">Log In</button>
                 <button class="btn btn-dark">Start trial Free</button>
             </div>
+        </div>
+        <div class="content">
+            <h1>A modern way to <br> build websites. </h1>
+            <h6 class="text-center fw-bold my-4">Empower designers to build professional, custom websites <br>  in a completely visual canvas with no code.</h6>
+            <button style="padding: 15px 20px;border: none;border-radius: 5px;background-color:#14203E;color: #fff;">
+                Start free Trial
+            </button>
         </div>
   </body>
 </html>
